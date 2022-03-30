@@ -210,7 +210,7 @@ $rawOutput
 
   @override
   final buildExtensions = const {
-    '^{{path}}/{{file}}.dart': ['^{{path}}/mocks/{{file}}.mocks.dart']
+    '^{{path}}/{{file}}.dart': ['{{path}}/mocks/{{file}}.mocks.dart']
   };
 }
 
