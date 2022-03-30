@@ -209,9 +209,7 @@ $rawOutput
   }
 
   @override
-  final buildExtensions = const {
-    '^{{path}}/{{file}}.dart': ['{{path}}/mocks/{{file}}.mocks.dart']
-  };
+  final buildExtensions = const {};
 }
 
 /// An [Element] visitor which collects the elements of all of the
